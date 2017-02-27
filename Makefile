@@ -2,56 +2,11 @@ CS3524_HOME="$(HOME)/3524"
 
 RM_FLAGS="-f"
 
-rmishout:
-	javac cs3524/examples/rmishout/ShoutServiceImpl.java; \
-	javac cs3524/examples/rmishout/ShoutServerMainline.java; \
-	javac cs3524/examples/rmishout/ShoutClient.java
-
-rmishoutclean:
-	cd cs3524/examples/rmishout; \
-	rm $(RM_FLAGS) *.class *~; \
-	cd $(CS3524_HOME)
-
-tasks:
-	javac cs3524/examples/tasks/TaskServerMainline.java; \
-	javac cs3524/examples/tasks/ExecutionServiceInterface.java; \
-	javac cs3524/examples/tasks/Client.java
-	javac cs3524/examples/tasks/Serialisable.java	
-
-auction:
-	javac cs3524/examples/auction/AuctioneerImpl.java; \
-	javac cs3524/examples/auction/AuctioneerInterface.java ;\
-	javac cs3524/examples/auction/AuctioneerMainline.java;\
-	javac cs3524/examples/auction/BidderImpl.java;\
-	javac cs3524/examples/auction/BidderInterface.java;\
-	javac cs3524/examples/auction/BidderMainline.java;\
-
-socketsps:
-	javac cs3524/solutions/socketsps/Choice.java ;\
-	javac cs3524/solutions/socketsps/Paper.java ;\
-	javac cs3524/solutions/socketsps/Scissors.java ;\
-	javac cs3524/solutions/socketsps/SPS.java ;\
-	javac cs3524/solutions/socketsps/SPSClient.java ;\
-	javac cs3524/solutions/socketsps/SPSServer.java ;\
-	javac cs3524/solutions/socketsps/Stone.java ;\
-	javac cs3524/solutions/socketsps/ServerHasAlreadyMovedException.java ;\
-	javac cs3524/solutions/socketsps/ServerHasNotMovedException.java ;\
-
 MUD:
 	javac cs3524/solutions/mud/Edge.java ;\
 	javac cs3524/solutions/mud/Vertex.java ;\
 	javac cs3524/solutions/mud/MUD.java ;\
-	javac cs3524/solutions/mud/MUDClient.java ;\
-	javac cs3524/solutions/mud/MUDMainline.java ;\
 
-MUD2:
-	javac cs3524/examples/mud/Edge.java; \
-	javac cs3524/examples/mud/MUD.java; \
-	javac cs3524/examples/mud/Vertex.java; \
-	javac cs3524/examples/mud/MUDServerMainline.java; \	
-	javac cs3524/examples/mud/MUDService.java; \	
-	javac cs3524/examples/mud/MUDServiceImpl.java; \
-	javac cs3524/examples/mud/MUDClient.java; \
 ###########################################################
 ## The Scissors, Paper, Stone example and solution
 ##
