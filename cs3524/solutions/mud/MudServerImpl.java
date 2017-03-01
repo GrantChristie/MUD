@@ -1,8 +1,16 @@
 package cs3524.solutions.mud;
 
 public class MudServerImpl implements MudServerInterface {
-  public String print(String s){
-    MUD m = new MUD("mymud.edg","mymud.msg","mymud.thg");
-    return m.toString();
+  public MUD m = new MUD("mymud.edg","mymud.msg","mymud.thg");
+
+  public MudServerImpl(){ }
+
+  public String setup(String name){
+    m.addThing(m.startLocation(), name);
+    return m.startLocation();
+  }
+
+  public String status(String location){
+    return m.locationInfo(location);
   }
 }
