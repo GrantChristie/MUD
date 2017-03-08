@@ -13,4 +13,8 @@ public class MudServerImpl implements MudServerInterface {
   public String status(String location){
     return m.locationInfo(location);
   }
+
+  public String move(String loc, String dir, String thing){
+    return m.moveThing(loc, dir, thing);
+  }
 }

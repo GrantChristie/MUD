@@ -9,9 +9,9 @@ public class MudServerMainline{
     }
     try{
       String hostname = (java.net.InetAddress.getLocalHost()).getCanonicalHostName();
-      MudServerImpl shoutServer = new MudServerImpl();
+      MudServerImpl mudServer = new MudServerImpl();
       int serverPort = Integer.parseInt(args[1]);
-      MudServerInterface shoutServerStub = (MudServerInterface)java.rmi.server.UnicastRemoteObject.exportObject(shoutServer, serverPort);
+      MudServerInterface shoutServerStub = (MudServerInterface)java.rmi.server.UnicastRemoteObject.exportObject(mudServer, serverPort);
       String regURL = "rmi://" + hostname + ":" + args[0] + "/MudService";
       System.out.println("Registering " + regURL);
       java.rmi.Naming.rebind(regURL, shoutServerStub);
