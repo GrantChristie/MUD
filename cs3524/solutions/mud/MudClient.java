@@ -20,6 +20,9 @@ public class MudClient{
         if (input.equals("help")){
           System.out.println("To exit the game, type 'exit'.");
           System.out.println("To move, type the direction you wish to move in. 'north', 'south', 'east', 'west'.");
+        }else if(input.contains("pickup")){
+          input = input.replace("pickup ", "");
+          server.pickup(currentLocation, input);
         }
       }
     }catch(Exception e) {

@@ -17,4 +17,10 @@ public class MudServerImpl implements MudServerInterface {
   public String move(String loc, String dir, String thing){
     return m.moveThing(loc, dir, thing);
   }
+
+  public String pickup(String loc, String thing){
+    m.delThing(loc, thing);
+    return thing;
+  }
+
 }
