@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c32b832a-e220-4f3e-9ce2-8c3814e5da55" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.class" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java" />
-    </list>
+    <list default="true" id="c32b832a-e220-4f3e-9ce2-8c3814e5da55" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,9 +19,52 @@
       <file leaf-file-name="MudClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="95" lean-forward="false" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="95" />
+            <state relative-caret-position="18">
+              <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MUD.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MUD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+              <folding>
+                <marker date="1488977680367" expanded="true" signature="1195:1247" ph="/**...*/" />
+                <marker date="1488977680367" expanded="true" signature="1319:1389" ph="{...}" />
+                <marker date="1488977680367" expanded="true" signature="1395:1460" ph="/**...*/" />
+                <marker date="1488977680367" expanded="true" signature="1522:1582" ph="{...}" />
+                <marker date="1488977680367" expanded="true" signature="1588:1732" ph="/**...*/" />
+                <marker date="1488977680367" expanded="true" signature="1795:1989" ph="{...}" />
+                <marker date="1488977680367" expanded="true" signature="1995:2013" ph="/**...*/" />
+                <marker date="1488977680367" expanded="false" signature="2063:2071" ph=" { " />
+                <marker date="1488977680367" expanded="false" signature="2106:2112" ph=" }" />
+                <marker date="1488977680367" expanded="true" signature="2118:2268" ph="/**...*/" />
+                <marker date="1488977680367" expanded="true" signature="2322:3100" ph="{...}" />
+                <marker date="1488977680367" expanded="true" signature="3106:3359" ph="/**...*/" />
+                <marker date="1488977680367" expanded="true" signature="3419:4300" ph="{...}" />
+                <marker date="1488977680367" expanded="true" signature="4306:4471" ph="/**...*/" />
+                <marker date="1488977680367" expanded="true" signature="4527:5181" ph="{...}" />
+                <marker date="1488977680367" expanded="true" signature="5427:5481" ph="/**...*/" />
+                <marker date="1488977680367" expanded="true" signature="5561:5756" ph="{...}" />
+                <marker date="1488977680367" expanded="true" signature="5973:6291" ph="{...}" />
+                <marker date="1488977680367" expanded="true" signature="6297:6378" ph="/**...*/" />
+                <marker date="1488977680367" expanded="false" signature="6423:6431" ph=" { " />
+                <marker date="1488977680367" expanded="false" signature="6466:6472" ph=" }" />
+                <marker date="1488977680367" expanded="true" signature="6478:6538" ph="/**...*/" />
+                <marker date="1488977680367" expanded="false" signature="6572:6580" ph=" { " />
+                <marker date="1488977680367" expanded="false" signature="6602:6608" ph=" }" />
+                <marker date="1488977680367" expanded="true" signature="6614:6695" ph="/**...*/" />
+                <marker date="1488977680367" expanded="true" signature="6758:6820" ph="{...}" />
+                <marker date="1488977680367" expanded="true" signature="6826:6876" ph="/**...*/" />
+                <marker date="1488977680367" expanded="true" signature="6940:7005" ph="{...}" />
+                <marker date="1488977680367" expanded="true" signature="7011:7192" ph="/**...*/" />
+                <marker date="1488977680367" expanded="true" signature="7265:7539" ph="{...}" />
+                <marker date="1488977680367" expanded="true" signature="7545:7668" ph="/**...*/" />
+                <marker date="1488977680367" expanded="true" signature="7716:7934" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,8 +72,8 @@
       <file leaf-file-name="MudServerImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="e#334#335#0" expanded="true" />
                 <element signature="e#375#376#0" expanded="true" />
@@ -48,8 +87,8 @@
       <file leaf-file-name="MudServerInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="126">
+              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -360,7 +399,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -468,14 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MUD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2124">
-          <caret line="132" column="47" lean-forward="false" selection-start-line="132" selection-start-column="47" selection-end-line="132" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MUD.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -492,18 +523,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <folding>
+            <marker date="1488977680367" expanded="true" signature="1195:1247" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="1319:1389" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="1395:1460" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="1522:1582" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="1588:1732" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="1795:1989" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="1995:2013" ph="/**...*/" />
+            <marker date="1488977680367" expanded="false" signature="2063:2071" ph=" { " />
+            <marker date="1488977680367" expanded="false" signature="2106:2112" ph=" }" />
+            <marker date="1488977680367" expanded="true" signature="2118:2268" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="2322:3100" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="3106:3359" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="3419:4300" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="4306:4471" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="4527:5181" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="5427:5481" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="5561:5756" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="5973:6291" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="6297:6378" ph="/**...*/" />
+            <marker date="1488977680367" expanded="false" signature="6423:6431" ph=" { " />
+            <marker date="1488977680367" expanded="false" signature="6466:6472" ph=" }" />
+            <marker date="1488977680367" expanded="true" signature="6478:6538" ph="/**...*/" />
+            <marker date="1488977680367" expanded="false" signature="6572:6580" ph=" { " />
+            <marker date="1488977680367" expanded="false" signature="6602:6608" ph=" }" />
+            <marker date="1488977680367" expanded="true" signature="6614:6695" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="6758:6820" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="6826:6876" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="6940:7005" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="7011:7192" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="7265:7539" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="7545:7668" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="7716:7934" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="144">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="504">
+          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
           <folding>
             <element signature="e#334#335#0" expanded="true" />
             <element signature="e#375#376#0" expanded="true" />
@@ -515,8 +587,225 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2376">
+          <caret line="132" column="47" lean-forward="true" selection-start-line="132" selection-start-column="47" selection-end-line="132" selection-end-column="47" />
+          <folding>
+            <marker date="1488977680367" expanded="true" signature="1195:1247" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="1319:1389" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="1395:1460" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="1522:1582" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="1588:1732" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="1795:1989" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="1995:2013" ph="/**...*/" />
+            <marker date="1488977680367" expanded="false" signature="2063:2071" ph=" { " />
+            <marker date="1488977680367" expanded="false" signature="2106:2112" ph=" }" />
+            <marker date="1488977680367" expanded="true" signature="2118:2268" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="2322:3100" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="3106:3359" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="3419:4300" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="4306:4471" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="4527:5181" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="5427:5481" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="5561:5756" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="5973:6291" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="6297:6378" ph="/**...*/" />
+            <marker date="1488977680367" expanded="false" signature="6423:6431" ph=" { " />
+            <marker date="1488977680367" expanded="false" signature="6466:6472" ph=" }" />
+            <marker date="1488977680367" expanded="true" signature="6478:6538" ph="/**...*/" />
+            <marker date="1488977680367" expanded="false" signature="6572:6580" ph=" { " />
+            <marker date="1488977680367" expanded="false" signature="6602:6608" ph=" }" />
+            <marker date="1488977680367" expanded="true" signature="6614:6695" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="6758:6820" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="6826:6876" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="6940:7005" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="7011:7192" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="7265:7539" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="7545:7668" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="7716:7934" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1488977680367" expanded="true" signature="1195:1247" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="1319:1389" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="1395:1460" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="1522:1582" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="1588:1732" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="1795:1989" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="1995:2013" ph="/**...*/" />
+            <marker date="1488977680367" expanded="false" signature="2063:2071" ph=" { " />
+            <marker date="1488977680367" expanded="false" signature="2106:2112" ph=" }" />
+            <marker date="1488977680367" expanded="true" signature="2118:2268" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="2322:3100" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="3106:3359" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="3419:4300" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="4306:4471" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="4527:5181" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="5427:5481" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="5561:5756" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="5973:6291" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="6297:6378" ph="/**...*/" />
+            <marker date="1488977680367" expanded="false" signature="6423:6431" ph=" { " />
+            <marker date="1488977680367" expanded="false" signature="6466:6472" ph=" }" />
+            <marker date="1488977680367" expanded="true" signature="6478:6538" ph="/**...*/" />
+            <marker date="1488977680367" expanded="false" signature="6572:6580" ph=" { " />
+            <marker date="1488977680367" expanded="false" signature="6602:6608" ph=" }" />
+            <marker date="1488977680367" expanded="true" signature="6614:6695" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="6758:6820" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="6826:6876" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="6940:7005" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="7011:7192" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="7265:7539" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="7545:7668" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="7716:7934" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymud.edg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymud.thg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymud.msg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding>
+            <marker date="1488977680367" expanded="true" signature="1195:1247" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="1319:1389" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="1395:1460" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="1522:1582" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="1588:1732" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="1795:1989" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="1995:2013" ph="/**...*/" />
+            <marker date="1488977680367" expanded="false" signature="2063:2071" ph=" { " />
+            <marker date="1488977680367" expanded="false" signature="2106:2112" ph=" }" />
+            <marker date="1488977680367" expanded="true" signature="2118:2268" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="2322:3100" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="3106:3359" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="3419:4300" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="4306:4471" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="4527:5181" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="5427:5481" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="5561:5756" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="5973:6291" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="6297:6378" ph="/**...*/" />
+            <marker date="1488977680367" expanded="false" signature="6423:6431" ph=" { " />
+            <marker date="1488977680367" expanded="false" signature="6466:6472" ph=" }" />
+            <marker date="1488977680367" expanded="true" signature="6478:6538" ph="/**...*/" />
+            <marker date="1488977680367" expanded="false" signature="6572:6580" ph=" { " />
+            <marker date="1488977680367" expanded="false" signature="6602:6608" ph=" }" />
+            <marker date="1488977680367" expanded="true" signature="6614:6695" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="6758:6820" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="6826:6876" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="6940:7005" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="7011:7192" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="7265:7539" ph="{...}" />
+            <marker date="1488977680367" expanded="true" signature="7545:7668" ph="/**...*/" />
+            <marker date="1488977680367" expanded="true" signature="7716:7934" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MUD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerMainline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="25" column="95" lean-forward="false" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="95" />
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding />
         </state>
       </provider>
