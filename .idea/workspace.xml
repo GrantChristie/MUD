@@ -5,9 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.class" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.java" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.java" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerMainline.java" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerMainline.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +23,8 @@
       <file leaf-file-name="MudClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="60" lean-forward="true" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+            <state relative-caret-position="18">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -518,8 +515,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="60" lean-forward="true" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>

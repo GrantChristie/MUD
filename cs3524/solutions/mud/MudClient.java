@@ -12,10 +12,15 @@ public class MudClient{
       String user = System.console().readLine("Please enter your username: ");
       String currentLocation = server.setup(user);
       String input = "";
+      System.out.println("\nTo get instructions, type 'help'.");
       while (!input.equals("exit")){
-        System.out.println(server.status(currentLocation));
-        input = System.console().readLine("Do Something: ");
-        currentLocation = server.move(currentLocation, input, user);
+          System.out.println(server.status(currentLocation));
+          input = System.console().readLine("Do Something: ");
+          currentLocation = server.move(currentLocation, input, user);
+        if (input.equals("help")){
+          System.out.println("To exit the game, type 'exit'.");
+          System.out.println("To move, type the direction you wish to move in. 'north', 'south', 'east', 'west'.");
+        }
       }
     }catch(Exception e) {
         System.err.println(e.getMessage());
