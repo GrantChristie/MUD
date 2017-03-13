@@ -77,9 +77,16 @@ public class MudServerImpl implements MudServerInterface {
   }
 
   //Removes the item being picked up from it's current location.
-  public String pickup(String location, String thing){
-    m.delThing(location, thing);
-    return thing;
+  public String pickup(String location, String thing, String player){
+    //if the item does not exist, inform the user
+    if (!m.getVertex(location)._things.contains(thing)){
+      return thing + " does not exist or cannot be picked up";
+    }
+    //if it does exist, inform the user they have picked up the item
+    else {
+      m.delThing(location, thing);
+      return player + " picked up " + thing;
+    }
   }
 
   //Retrieve list of mud servers available

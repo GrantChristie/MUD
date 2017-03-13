@@ -6,7 +6,7 @@ import java.rmi.RemoteException;
 public interface MudServerInterface extends Remote{
    String status(String location) throws RemoteException;
    String move(String location, String direction) throws RemoteException;
-   String pickup(String location, String thing) throws RemoteException;
+   String pickup(String location, String thing, String player) throws RemoteException;
    boolean addPlayer(String player) throws RemoteException;
    String getLocation() throws RemoteException;
    String getPlayers(String location) throws RemoteException;

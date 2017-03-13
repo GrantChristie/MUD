@@ -5,12 +5,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.class" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.class" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.class" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerMainline.class" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerMainline.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report.odt" afterPath="$PROJECT_DIR$/report.odt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.java" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.java" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerMainline.java" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerMainline.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="MudClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-195">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,8 +40,8 @@
       <file leaf-file-name="MUD.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MUD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="-241">
+              <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
               <folding>
                 <element signature="e#907#923#0" expanded="true" />
               </folding>
@@ -53,8 +52,8 @@
       <file leaf-file-name="MudServerImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+            <state relative-caret-position="225">
+              <caret line="74" column="56" lean-forward="true" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
               <folding>
                 <element signature="e#175#188#0" expanded="true" />
                 <element signature="e#455#456#0" expanded="true" />
@@ -64,10 +63,9 @@
                 <element signature="e#1189#1197#0" expanded="true" />
                 <element signature="e#1886#1887#0" expanded="true" />
                 <element signature="e#1935#1936#0" expanded="true" />
-                <element signature="e#2053#2054#0" expanded="true" />
                 <element signature="e#2102#2103#0" expanded="true" />
-                <element signature="e#2717#2718#0" expanded="true" />
-                <element signature="e#2753#2754#0" expanded="true" />
+                <element signature="e#3023#3024#0" expanded="true" />
+                <element signature="e#3059#3060#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +74,8 @@
       <file leaf-file-name="MudServerInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            <state relative-caret-position="120">
+              <caret line="8" column="61" lean-forward="false" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerMainline.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+              <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -103,6 +101,7 @@
       <find>movet</find>
       <find>user</find>
       <find>rmi</find>
+      <find>getVertex</find>
     </findStrings>
     <replaceStrings>
       <replace>player</replace>
@@ -121,8 +120,8 @@
       <list>
         <option value="$PROJECT_DIR$/cs3524/solutions/mud/MUD.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.java" />
         <option value="$PROJECT_DIR$/cs3524/solutions/mud/MudServerMainline.java" />
+        <option value="$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.java" />
         <option value="$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.java" />
         <option value="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java" />
       </list>
@@ -482,10 +481,9 @@
             <element signature="e#1189#1197#0" expanded="true" />
             <element signature="e#1886#1887#0" expanded="true" />
             <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#2053#2054#0" expanded="true" />
             <element signature="e#2102#2103#0" expanded="true" />
-            <element signature="e#2717#2718#0" expanded="true" />
-            <element signature="e#2753#2754#0" expanded="true" />
+            <element signature="e#3023#3024#0" expanded="true" />
+            <element signature="e#3059#3060#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -541,10 +539,9 @@
             <element signature="e#1189#1197#0" expanded="true" />
             <element signature="e#1886#1887#0" expanded="true" />
             <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#2053#2054#0" expanded="true" />
             <element signature="e#2102#2103#0" expanded="true" />
-            <element signature="e#2717#2718#0" expanded="true" />
-            <element signature="e#2753#2754#0" expanded="true" />
+            <element signature="e#3023#3024#0" expanded="true" />
+            <element signature="e#3059#3060#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -600,10 +597,9 @@
             <element signature="e#1189#1197#0" expanded="true" />
             <element signature="e#1886#1887#0" expanded="true" />
             <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#2053#2054#0" expanded="true" />
             <element signature="e#2102#2103#0" expanded="true" />
-            <element signature="e#2717#2718#0" expanded="true" />
-            <element signature="e#2753#2754#0" expanded="true" />
+            <element signature="e#3023#3024#0" expanded="true" />
+            <element signature="e#3059#3060#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -697,10 +693,9 @@
             <element signature="e#1189#1197#0" expanded="true" />
             <element signature="e#1886#1887#0" expanded="true" />
             <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#2053#2054#0" expanded="true" />
             <element signature="e#2102#2103#0" expanded="true" />
-            <element signature="e#2717#2718#0" expanded="true" />
-            <element signature="e#2753#2754#0" expanded="true" />
+            <element signature="e#3023#3024#0" expanded="true" />
+            <element signature="e#3059#3060#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -748,10 +743,9 @@
             <element signature="e#1189#1197#0" expanded="true" />
             <element signature="e#1886#1887#0" expanded="true" />
             <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#2053#2054#0" expanded="true" />
             <element signature="e#2102#2103#0" expanded="true" />
-            <element signature="e#2717#2718#0" expanded="true" />
-            <element signature="e#2753#2754#0" expanded="true" />
+            <element signature="e#3023#3024#0" expanded="true" />
+            <element signature="e#3059#3060#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -820,10 +814,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MUD.java">
+    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerMainline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <caret line="8" column="61" lean-forward="false" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-241">
+          <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
           <folding>
             <element signature="e#907#923#0" expanded="true" />
           </folding>
@@ -832,8 +844,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        <state relative-caret-position="225">
+          <caret line="74" column="56" lean-forward="true" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
           <folding>
             <element signature="e#175#188#0" expanded="true" />
             <element signature="e#455#456#0" expanded="true" />
@@ -843,36 +855,17 @@
             <element signature="e#1189#1197#0" expanded="true" />
             <element signature="e#1886#1887#0" expanded="true" />
             <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#2053#2054#0" expanded="true" />
             <element signature="e#2102#2103#0" expanded="true" />
-            <element signature="e#2717#2718#0" expanded="true" />
-            <element signature="e#2753#2754#0" expanded="true" />
+            <element signature="e#3023#3024#0" expanded="true" />
+            <element signature="e#3059#3060#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerMainline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

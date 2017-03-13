@@ -55,12 +55,12 @@ public class MudClient{
       System.out.println("\nTo get instructions, type 'help'.\n");
       String input = "";
         //Main game loop, ends when user inputs "exit"
-        while (!input.equals("exit")){
+        while (!input.equalsIgnoreCase("exit")){
           input = System.console().readLine("\nWhat would you like to do? ");
           server.changeMUD(mudChoice);
 
           //if user inputs help, game instructions are printed
-          if (input.equals("help")){
+          if (input.equalsIgnoreCase("help")){
             System.out.println("\nTo exit the game, type 'exit'.");
             System.out.println("To move, type the direction you wish to move in. 'north', 'south', 'east', 'west'.");
             System.out.println("To pickup an item, type 'pickup' and the item you wish to pickup.");
@@ -79,22 +79,17 @@ public class MudClient{
             }
           }
           //if the user inputs pickup and an item, that item is removed from the currentLocation.
-          else if(input.contains("pickup")){
-            input = input.replace("pickup ", "");
-            if (input.equals(player)){
-              System.out.println("You cannot pickup yourself");
-            }
-            else{
-              server.pickup(currentLocation, input);
-            }
+          else if(input.toLowerCase().contains("pickup")){
+            input = input.toLowerCase().replace("pickup ", "");
+            System.out.println(server.pickup(currentLocation, input.toLowerCase(), player));
           }
           //Display the all the players at the users location if requested
-          else if(input.equals("players")) {
+          else if(input.equalsIgnoreCase("players")) {
             System.out.println("Players at this Location:");
             System.out.println(server.getPlayers(currentLocation));
           }
           //if any other input is received, message is printed informing the user.
-          else if(!input.equals("exit")){
+          else if(!input.equalsIgnoreCase("exit")){
             System.out.println("\nInvalid Action");
           }
         }
