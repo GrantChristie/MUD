@@ -29,24 +29,21 @@ public class MudServerImpl implements MudServerInterface {
 
   public String getPlayers(String location) {
     ArrayList<String> Players = new ArrayList<String>();
-    String username;
+    String player;
 
     StringBuilder sb = new StringBuilder();
 
     Iterator itter = m.players.keySet().iterator();
 
     while (itter.hasNext()) {
-      username = itter.next().toString();
-      if(m.players.get(username).equalsIgnoreCase(location)){
-        Players.add(username);
-        sb.append(username);
+      player = itter.next().toString();
+      if(m.players.get(player).equalsIgnoreCase(location)){
+        Players.add(player);
+        sb.append(player);
         sb.append(", ");
       }
-
     }
-
     sb.setLength(sb.length() - 2);
-
     return sb.toString();
 
   }
