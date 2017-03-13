@@ -31,8 +31,8 @@ public class MudServerImpl implements MudServerInterface {
   }
 
   //Moves the player given a location, direction and thing.
-  public String move(String loc, String dir, String thing){
-    return m.moveThing(loc, dir, thing);
+  public String move(String loc, String dir){
+    return m.moveThing(loc, dir);
   }
 
   //Removes the item being picked up from it's current location.

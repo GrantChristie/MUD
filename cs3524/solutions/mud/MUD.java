@@ -266,14 +266,13 @@ public class MUD
      * is a thing). Checks that there is a route to travel on. Returns
      * the location moved to.
      */
-    public String moveThing( String loc, String dir, String thing )
+    public String moveThing( String loc, String dir)
     {
 	Vertex v = getVertex( loc );
 	Edge e = v._routes.get( dir );
-	if (e == null)   // if there is no route in that direction
-	    return loc;  // no move is made; return current location.
-	v._things.remove( thing );
-	e._dest._things.add( thing );
+	if (e == null) {// if there is no route in that direction
+		return loc;  // no move is made; return current location.
+	}
 	return e._dest._name;
     }
 
