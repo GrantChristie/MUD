@@ -3,30 +3,42 @@ package cs3524.solutions.mud;
 import java.util.*;
 
 public class MudServerImpl implements MudServerInterface {
-  public MUD m = new MUD("mymud.edg","mymud.msg","mymud.thg");
+  private MUD m;
+  public Map<String, MUD> servers = new HashMap<String, MUD>();
 
-  public MudServerImpl(){ }
+  //Add two muds to the game
+  public MudServerImpl(){
+    servers.put("Mud1", new MUD("mymud.edg","mymud.msg","mymud.thg"));
+    servers.put("Mud2", new MUD("mymud.edg","mymud.msg","mymud.thg"));
+  }
 
-  public String getLocation(){
+  //get mud starting location
+  public String getLocation() {
     return m.startLocation();
   }
 
+  //Adds player to a mud
   public boolean addPlayer(String player) {
+    //If the username already exists return false
     if (m.players.containsKey(player))
       return false;
-    if (m.players.size() > 10){
+    //Cap number of players per MUD, if a mud is full return false
+    if (m.players.size() > 5){
       return false;
     }
+    //add player with a starting location in the mud
     else{
       m.players.put(player, m.startLocation());
       return true;
     }
   }
 
+  //Removes player from their mud
   public void delPlayer(String player){
     m.players.remove(player);
   }
 
+  //Retrieve a list of players to display to the user
   public String getPlayers(String location) {
     ArrayList<String> Players = new ArrayList<String>();
     String player;
@@ -48,6 +60,7 @@ public class MudServerImpl implements MudServerInterface {
 
   }
 
+  //Update player location when they move
   public void updatePlayerLocation(String player, String location){
     m.players.remove(player);
     m.players.put(player, location);
@@ -69,4 +82,22 @@ public class MudServerImpl implements MudServerInterface {
     return thing;
   }
 
+  //Retrieve list of mud servers available
+  public String getServers() {
+    StringBuilder sb = new StringBuilder();
+
+    Iterator itter = servers.keySet().iterator();
+
+    while (itter.hasNext()) {
+      sb.append(itter.next().toString());
+      sb.append(", ");
+      }
+    sb.setLength(sb.length() - 2);
+    return "Servers: " + sb.toString();
+  }
+
+  //change m to the mud the user selected
+  public void changeMUD(String mudChoice){
+    m = servers.get(mudChoice);
+  }
 }
