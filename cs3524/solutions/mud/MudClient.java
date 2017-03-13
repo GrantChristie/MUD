@@ -48,9 +48,14 @@ public class MudClient{
           }
           //if user inputs one of 4 directions, the value of currentLocation is updated.
           else if (input.equalsIgnoreCase("north") || input.equalsIgnoreCase("east") || input.equalsIgnoreCase("south") || input.equalsIgnoreCase("west")){
-             currentLocation = server.move(currentLocation, input.toLowerCase());
-             server.updatePlayerLocation(user, currentLocation);
-             System.out.println(server.status(currentLocation));
+            String move = server.move(currentLocation, input.toLowerCase());
+            if (move.equals(currentLocation)){
+              System.out.println("Cannot move there");
+            }else {
+              currentLocation = server.move(currentLocation, input.toLowerCase());
+              server.updatePlayerLocation(user, currentLocation);
+              System.out.println(server.status(currentLocation));
+            }
           }
           //if the user inputs pickup and an item, that item is removed from the currentLocation.
           else if(input.contains("pickup")){
