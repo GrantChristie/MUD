@@ -98,7 +98,7 @@ public class MudClient{
           }
         }
       //Removes the player from the mud when they exit
-      System.out.println("Goodbye" + player);
+      System.out.println("Goodbye " + player);
       server.delPlayer(player);
     }
     catch(Exception e) {
