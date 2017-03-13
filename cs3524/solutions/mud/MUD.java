@@ -83,7 +83,7 @@ public class MUD
     /**
      *
      */
-    private Vertex getVertex( String vertexName )
+    public Vertex getVertex( String vertexName )
     {
 	return vertexMap.get( vertexName );
     }

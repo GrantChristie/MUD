@@ -2,7 +2,7 @@ package cs3524.solutions.mud;
 
 public class MudClient{
   static MudServerInterface server;
-  private static String user;
+  private static String user, currentLocation;
 
   public static void main(String args[]) throws java.rmi.RemoteException {
     if (args.length < 2) {
@@ -22,6 +22,7 @@ public class MudClient{
 
   static void setup() throws Exception{
     user = System.console().readLine("Please enter your username: ");
+    currentLocation = server.getLocation();
     if (server.addPlayer(user)) {
       startGame();
     }else {
@@ -30,7 +31,6 @@ public class MudClient{
   }
 
   static void startGame() throws Exception{
-    String currentLocation = server.getLocation();
     try{
       String input = "";
       System.out.println("\nTo get instructions, type 'help'.");
@@ -48,6 +48,7 @@ public class MudClient{
           //if user inputs one of 4 directions, the value of currentLocation is updated.
           else if (input.equalsIgnoreCase("north") || input.equalsIgnoreCase("east") || input.equalsIgnoreCase("south") || input.equalsIgnoreCase("west")){
              currentLocation = server.move(currentLocation, input.toLowerCase());
+             server.updatePlayerLocation(user, currentLocation);
           }
           //if the user inputs pickup and an item, that item is removed from the currentLocation.
           else if(input.contains("pickup")){
@@ -58,6 +59,10 @@ public class MudClient{
             else{
               server.pickup(currentLocation, input);
             }
+          }
+          else if(input.equals("players")) {
+            System.out.println("Players at this Location:\n");
+            System.out.println(server.getPlayers(currentLocation));
           }
           //if any other input is received, message is printed informing the user.
           else {
