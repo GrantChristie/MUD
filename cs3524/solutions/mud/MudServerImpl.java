@@ -11,6 +11,20 @@ public class MudServerImpl implements MudServerInterface {
     return m.startLocation();
   }
 
+  public String getLocation(){
+    return m.startLocation();
+  }
+
+  public boolean addPlayer(String username) {
+    if (m.players.size() < 10){
+      m.players.put(username, m.startLocation());
+      return true;
+    }
+    else{
+      return false;
+    }
+  }
+
   //Returns information about the requested location.
   public String status(String location){
     return m.locationInfo(location);

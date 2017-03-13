@@ -32,6 +32,8 @@ public class MUD
 
     private String _startLocation = "";
 
+    public Map<String, String> players = new HashMap<String, String>();
+
     /**
      * Add a new edge to the graph.
      */
