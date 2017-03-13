@@ -1,2 +1,0 @@
-enscript -r -2 --file-align=2 --highlight --line-numbers -o - `find . -name '*.java'` | ps2pdf - files.pdf
-
