@@ -1,8 +1,8 @@
-A north B a path all the beach
-B south A a path all the beach
-A east C a path all the beach
-C west A a path all the beach
-C north D a path all the beach
-D south C a path all the beach
-B east D a path all the beach
-D west B a path all the beach
+A north B a path along the beach
+B south A a path along the beach
+A east C a path along the beach
+C west A a path along the beach
+C north D a path along the beach
+D south C a path along the beach
+B east D a path along the beach
+D west B a path along the beach
