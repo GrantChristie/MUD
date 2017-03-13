@@ -12,13 +12,19 @@ public class MudServerImpl implements MudServerInterface {
   }
 
   public boolean addPlayer(String user) {
-    if (m.players.size() < 10){
+    if (m.players.containsKey(user))
+      return false;
+    if (m.players.size() > 10){
+      return false;
+    }
+    else{
       m.players.put(user, m.startLocation());
       return true;
     }
-    else{
-      return false;
-    }
+  }
+
+  public void delPlayer(String user){
+    m.players.remove(user);
   }
 
   public String getPlayers(String location) {

@@ -8,4 +8,5 @@ public interface MudServerInterface extends java.rmi.Remote{
    String getLocation() throws java.rmi.RemoteException;
    String getPlayers(String location) throws java.rmi.RemoteException;
    void updatePlayerLocation(String user, String Location) throws java.rmi.RemoteException;
+   void delPlayer(String user) throws java.rmi.RemoteException;
 }

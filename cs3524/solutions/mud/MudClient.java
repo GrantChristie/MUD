@@ -72,11 +72,12 @@ public class MudClient{
             System.out.println(server.getPlayers(currentLocation));
           }
           //if any other input is received, message is printed informing the user.
-          else {
+          else if(!input.equals("exit")){
             System.out.println("\nInvalid Action");
           }
         }
       System.out.println("Game Closed");
+      server.delPlayer(user);
     }
     catch(Exception e) {
         System.err.println(e.getMessage());
