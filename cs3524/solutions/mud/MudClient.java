@@ -44,13 +44,13 @@ public class MudClient{
     if (server.addPlayer(player)) {
       startGame();
     }else {
-      System.out.println("Fail");
+      System.out.println("Error connecting " + player + " to " + mudChoice);
     }
   }
 
   static void startGame() throws Exception{
     try{
-
+      System.out.println("\nWelcome to " + mudChoice);
       //Print the users location and the command needed to get instructions
       System.out.println(server.status(currentLocation));
       System.out.println("\nTo get instructions, type 'help'.\n");

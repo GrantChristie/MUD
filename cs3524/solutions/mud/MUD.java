@@ -144,7 +144,7 @@ public class MUD
 		String loc = st.nextToken();
 		String msg = "";
 		while (st.hasMoreTokens()) {
-		    msg = msg + st.nextToken() + " "; 
+		    msg = msg + st.nextToken() + " ";
                 }
 		changeMessage( loc, msg );
 		if (first) {      // Record the start location.
@@ -154,7 +154,7 @@ public class MUD
 	    }
 	}
 	catch( IOException e ) {
-	    System.err.println( "Graph.recordMessages( String " + 
+	    System.err.println( "Graph.recordMessages( String " +
 				messagesfile + ")\n" + e.getMessage() );
 	}
     }

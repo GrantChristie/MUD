@@ -8,8 +8,8 @@ public class MudServerImpl implements MudServerInterface {
 
   //Add two muds to the game
   public MudServerImpl(){
-    servers.put("mud1", new MUD("mymud.edg","mymud.msg","mymud.thg"));
-    servers.put("mud2", new MUD("mymud.edg","mymud.msg","mymud.thg"));
+    servers.put("wood", new MUD("wood.edg","wood.msg","wood.thg"));
+    servers.put("beach", new MUD("beach.edg","beach.msg","beach.thg"));
   }
 
   //get mud starting location
@@ -23,7 +23,7 @@ public class MudServerImpl implements MudServerInterface {
     if (m.players.containsKey(player))
       return false;
     //Cap number of players per MUD, if a mud is full return false
-    if (m.players.size() > 5){
+    if (m.players.size() >= 5){
       return false;
     }
     //add player with a starting location in the mud
