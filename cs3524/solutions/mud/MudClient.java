@@ -65,6 +65,7 @@ public class MudClient{
             System.out.println("To move, type the direction you wish to move in. 'north', 'south', 'east', 'west'.");
             System.out.println("To pickup an item, type 'pickup' and the item you wish to pickup.");
             System.out.println("To see players at your location type 'players'");
+            System.out.println("To see your current location, type 'where'");
           }
           //if user inputs one of 4 directions, the value of currentLocation is updated.
           else if (input.equalsIgnoreCase("north") || input.equalsIgnoreCase("east") || input.equalsIgnoreCase("south") || input.equalsIgnoreCase("west")){
@@ -87,6 +88,9 @@ public class MudClient{
           else if(input.equalsIgnoreCase("players")) {
             System.out.println("Players at this Location:");
             System.out.println(server.getPlayers(currentLocation));
+          }
+          else if(input.equalsIgnoreCase("where")){
+            System.out.println(server.status(currentLocation));
           }
           //if any other input is received, message is printed informing the user.
           else if(!input.equalsIgnoreCase("exit")){
