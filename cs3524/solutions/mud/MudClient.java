@@ -32,23 +32,25 @@ public class MudClient{
 
   static void startGame() throws Exception{
     try{
+      System.out.println(server.status(currentLocation));
+      System.out.println("\nTo get instructions, type 'help'.\n");
       String input = "";
-      System.out.println("\nTo get instructions, type 'help'.");
         //Main game loop, ends when user inputs "exit
         while (!input.equals("exit")){
-            System.out.println(server.status(currentLocation));
-            input = System.console().readLine("What would you like to do? ");
+            input = System.console().readLine("\nWhat would you like to do? ");
 
           //if user inputs help, game instructions are printed
           if (input.equals("help")){
             System.out.println("\nTo exit the game, type 'exit'.");
             System.out.println("To move, type the direction you wish to move in. 'north', 'south', 'east', 'west'.");
             System.out.println("To pickup an item, type 'pickup' and the item you wish to pickup.");
+            System.out.println("To see players at your location type 'players'");
           }
           //if user inputs one of 4 directions, the value of currentLocation is updated.
           else if (input.equalsIgnoreCase("north") || input.equalsIgnoreCase("east") || input.equalsIgnoreCase("south") || input.equalsIgnoreCase("west")){
              currentLocation = server.move(currentLocation, input.toLowerCase());
              server.updatePlayerLocation(user, currentLocation);
+             System.out.println(server.status(currentLocation));
           }
           //if the user inputs pickup and an item, that item is removed from the currentLocation.
           else if(input.contains("pickup")){
@@ -61,7 +63,7 @@ public class MudClient{
             }
           }
           else if(input.equals("players")) {
-            System.out.println("Players at this Location:\n");
+            System.out.println("Players at this Location:");
             System.out.println(server.getPlayers(currentLocation));
           }
           //if any other input is received, message is printed informing the user.

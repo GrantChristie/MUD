@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c32b832a-e220-4f3e-9ce2-8c3814e5da55" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MUD.class" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MUD.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.class" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.class" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.class" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MUD.java" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MUD.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.java" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.java" afterPath="$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/howtoexecute.txt" afterPath="$PROJECT_DIR$/howtoexecute.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MudClient.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MudClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+            <state relative-caret-position="106">
+              <caret line="39" column="49" lean-forward="false" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -67,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MudServerInterface.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MudServerInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -108,9 +101,9 @@
       <list>
         <option value="$PROJECT_DIR$/cs3524/solutions/mud/MudServerMainline.java" />
         <option value="$PROJECT_DIR$/cs3524/solutions/mud/MUD.java" />
-        <option value="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java" />
         <option value="$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.java" />
         <option value="$PROJECT_DIR$/cs3524/solutions/mud/MudServerInterface.java" />
+        <option value="$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java" />
       </list>
     </option>
   </component>
@@ -753,14 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudServerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -789,6 +774,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs3524/solutions/mud/MudClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="39" column="49" lean-forward="false" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
           <folding />
         </state>
       </provider>
