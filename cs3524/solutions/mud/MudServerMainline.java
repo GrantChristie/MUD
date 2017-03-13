@@ -34,11 +34,13 @@ public class MudServerMainline{
         if (input.toLowerCase().contains("create")){
           String[] components = input.split(" ");
 
-          if (mudServer.servers.size()<5 || components.length != 5){
-
+          if (mudServer.servers.containsKey(components[1].toLowerCase())){
+            System.out.println("Mud with that name aleady exists");
+          }
+          else if (mudServer.servers.size()<5 || components.length != 5){
             MUD m = new MUD(components[2], components[3], components[4]);
-            mudServer.servers.put(components[1], m);
-            System.out.println("Mud created with name " + components[1]);
+            mudServer.servers.put(components[1].toLowerCase(), m);
+            System.out.println("Mud created with name " + components[1].toLowerCase());
           }
           else{
             System.out.println("Mud cannot be created");

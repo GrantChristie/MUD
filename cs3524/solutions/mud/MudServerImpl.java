@@ -8,8 +8,8 @@ public class MudServerImpl implements MudServerInterface {
 
   //Add two muds to the game
   public MudServerImpl(){
-    servers.put("Mud1", new MUD("mymud.edg","mymud.msg","mymud.thg"));
-    servers.put("Mud2", new MUD("mymud.edg","mymud.msg","mymud.thg"));
+    servers.put("mud1", new MUD("mymud.edg","mymud.msg","mymud.thg"));
+    servers.put("mud2", new MUD("mymud.edg","mymud.msg","mymud.thg"));
   }
 
   //get mud starting location
