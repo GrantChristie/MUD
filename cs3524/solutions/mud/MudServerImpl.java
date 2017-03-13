@@ -11,20 +11,20 @@ public class MudServerImpl implements MudServerInterface {
     return m.startLocation();
   }
 
-  public boolean addPlayer(String user) {
-    if (m.players.containsKey(user))
+  public boolean addPlayer(String player) {
+    if (m.players.containsKey(player))
       return false;
     if (m.players.size() > 10){
       return false;
     }
     else{
-      m.players.put(user, m.startLocation());
+      m.players.put(player, m.startLocation());
       return true;
     }
   }
 
-  public void delPlayer(String user){
-    m.players.remove(user);
+  public void delPlayer(String player){
+    m.players.remove(player);
   }
 
   public String getPlayers(String location) {
@@ -51,9 +51,9 @@ public class MudServerImpl implements MudServerInterface {
 
   }
 
-  public void updatePlayerLocation(String user, String location){
-    m.players.remove(user);
-    m.players.put(user, location);
+  public void updatePlayerLocation(String player, String location){
+    m.players.remove(player);
+    m.players.put(player, location);
   }
 
   //Returns information about the requested location.

@@ -2,7 +2,7 @@ package cs3524.solutions.mud;
 
 public class MudClient{
   static MudServerInterface server;
-  private static String user, currentLocation;
+  private static String player, currentLocation;
 
   public static void main(String args[]) throws java.rmi.RemoteException {
     if (args.length < 2) {
@@ -21,9 +21,9 @@ public class MudClient{
   }
 
   static void setup() throws Exception{
-    user = System.console().readLine("Please enter your username: ");
+    player = System.console().readLine("Please enter your username: ");
     currentLocation = server.getLocation();
-    if (server.addPlayer(user)) {
+    if (server.addPlayer(player)) {
       startGame();
     }else {
       System.out.println("Fail");
@@ -53,14 +53,14 @@ public class MudClient{
               System.out.println("Cannot move there");
             }else {
               currentLocation = server.move(currentLocation, input.toLowerCase());
-              server.updatePlayerLocation(user, currentLocation);
+              server.updatePlayerLocation(player, currentLocation);
               System.out.println(server.status(currentLocation));
             }
           }
           //if the user inputs pickup and an item, that item is removed from the currentLocation.
           else if(input.contains("pickup")){
             input = input.replace("pickup ", "");
-            if (input.equals(user)){
+            if (input.equals(player)){
               System.out.println("You cannot pickup yourself");
             }
             else{
@@ -77,7 +77,7 @@ public class MudClient{
           }
         }
       System.out.println("Game Closed");
-      server.delPlayer(user);
+      server.delPlayer(player);
     }
     catch(Exception e) {
         System.err.println(e.getMessage());
