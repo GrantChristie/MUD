@@ -7,12 +7,6 @@ public class MudServerImpl implements MudServerInterface {
 
   public MudServerImpl(){ }
 
-  //Adds the user's name to the start location to enable the user to start playing.
-  public String setup(String name){
-    m.addThing(m.startLocation(), name);
-    return m.startLocation();
-  }
-
   public String getLocation(){
     return m.startLocation();
   }
