@@ -34,10 +34,12 @@ public class MudServerMainline{
         if (input.toLowerCase().contains("create")){
           String[] components = input.split(" ");
 
+          //if a mud with that name already exists, return a message to the user
           if (mudServer.servers.containsKey(components[1].toLowerCase())){
             System.out.println("Mud with that name aleady exists");
           }
-          else if (mudServer.servers.size()<5 || components.length != 5){
+          //if there are less than 5 muds and the user has entered the correct number of components then add the mud
+          else if (mudServer.servers.size()<5 && components.length == 5){
             MUD m = new MUD(components[2], components[3], components[4]);
             mudServer.servers.put(components[1].toLowerCase(), m);
             System.out.println("Mud created with name " + components[1].toLowerCase());

@@ -33,6 +33,7 @@ public class MudClient{
     //Print list of servers and request a choice from the user
     System.out.println(server.getServers());
 
+    //Request a mud selection from the user and set that mud as the one they are entering
     mudChoice = System.console().readLine("Please select a server: ").toLowerCase();
     server.changeMUD(mudChoice);
 
@@ -48,6 +49,7 @@ public class MudClient{
     }
   }
 
+  //main game functionalities
   static void startGame() throws Exception{
     try{
       System.out.println("\nWelcome to " + mudChoice);

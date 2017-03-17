@@ -37,9 +37,9 @@ public class MUD
     /**
      * Add a new edge to the graph.
      */
-    private void addEdge( String sourceName, 
-			  String destName, 
-			  String direction, 
+    private void addEdge( String sourceName,
+			  String destName,
+			  String direction,
 			  String view )
     {
         Vertex v = getOrCreateVertex( sourceName );
@@ -50,7 +50,7 @@ public class MUD
     /**
      * Create a new thing at a location.
      */
-    private void createThing( String loc, 
+    private void createThing( String loc,
 			      String thing )
     {
 	Vertex v = getOrCreateVertex( loc );
@@ -110,13 +110,13 @@ public class MUD
 		String dest   = st.nextToken();
 		String msg = "";
 		while (st.hasMoreTokens()) {
-		    msg = msg + st.nextToken() + " "; 
+		    msg = msg + st.nextToken() + " ";
                 }
 		addEdge( source, dest, dir, msg );
 	    }
 	}
 	catch( IOException e ) {
-	    System.err.println( "Graph.createEdges( String " + 
+	    System.err.println( "Graph.createEdges( String " +
 				edgesfile + ")\n" + e.getMessage() );
 	}
     }
@@ -178,12 +178,12 @@ public class MUD
 		}
 		String loc = st.nextToken();
 		while (st.hasMoreTokens()) {
-		    addThing( loc, st.nextToken()); 
+		    addThing( loc, st.nextToken());
                 }
 	    }
 	}
 	catch( IOException e ) {
-	    System.err.println( "Graph.recordThings( String " + 
+	    System.err.println( "Graph.recordThings( String " +
 				thingsfile + ")\n" + e.getMessage() );
 	}
     }
@@ -254,7 +254,7 @@ public class MUD
     /**
      * Remove a thing from a location.
      */
-    public void delThing( String loc, 
+    public void delThing( String loc,
 			  String thing )
     {
 	Vertex v = getVertex( loc );
